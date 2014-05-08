@@ -42,6 +42,11 @@ static dispatch_queue_t _queue;
 
 @implementation MKiCloudSync
 
++ (void) load
+{
+    [self performSelectorOnMainThread:@selector(start) withObject:nil waitUntilDone:NO];
+}
+
 + (BOOL) isSyncing
 {
 	__block BOOL isSyncing = NO;

@@ -5,8 +5,7 @@ A clean and simple class to sync NSUserDefaults to iCloud.
 
 ## How do you use it?
 1. Copy *MKiCloudSync.h* and *MKiCloudSync.m* into your Xcode project.
-2. Call `[MKiCloudSync start]`.
-3. There is no step 3.
+2. There is no step 2.
 
 Read the [blog post](http://blog.mugunthkumar.com/coding/ios-code-mkicloudsync-sync-your-nsuserdefaults-to-icloud-with-a-single-line-of-code) for more information.
 
